@@ -1,0 +1,163 @@
+/* **************************** */
+/* BELOW 1104px (Landscape Tablets) */
+/* **************************** */
+
+@media (max-width: 69em) {
+  html {
+    font-size: 56.5%;
+  }
+
+  .container {
+    padding: 0 2rem;
+  }
+
+  li span {
+    font-size: 1.3rem;
+  }
+}
+
+/* **************************** */
+/* BELOW 864px (Tablets) */
+/* **************************** */
+
+@media (max-width: 54rem) {
+  html {
+    font-size: 51.5%;
+  }
+
+  .container {
+    padding: 0 3rem;
+  }
+
+  header {
+    grid-template-columns: 1fr;
+    row-gap: 3rem;
+  }
+
+  .header-text-box {
+    text-align: center;
+  }
+
+  header img {
+    justify-self: center;
+    width: 50%;
+  }
+
+  .grid-3-cols {
+    column-gap: 3rem;
+  }
+
+  .features-icon {
+    margin-bottom: 1.6rem;
+  }
+
+  .testimonial-img {
+    display: none;
+  }
+
+  .testimonial-box {
+    grid-column: 1 / -1;
+  }
+
+  .testimonial-author {
+    font-size: 1.2rem;
+  }
+
+  .chair-details {
+    margin-bottom: 3.2rem;
+  }
+
+  .chair-price {
+    flex-direction: column;
+    gap: 1.6rem;
+    margin-bottom: 0;
+  }
+}
+
+/* **************************** */
+/* BELOW 656px (Phones) */
+/* **************************** */
+@media (max-width: 41rem) {
+  .chair-cards {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 3rem;
+    justify-content: center;
+  }
+
+  .chair:last-child {
+    grid-column: span 2;
+    width: 30rem;
+    justify-self: center;
+  }
+
+  .chair-price {
+    flex-direction: row;
+    justify-content: center;
+    gap: 2.3rem;
+  }
+}
+
+/* **************************** */
+/* BELOW 512px (Phones) */
+/* **************************** */
+
+@media (max-width: 32rem) {
+  h1 {
+    font-size: 3.6rem;
+  }
+
+  .grid-3-cols {
+    grid-template-columns: 1fr;
+    row-gap: 2.4rem;
+  }
+
+  header img {
+    width: 68%;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+
+  .chair:last-child {
+    grid-column: 1;
+    width: auto;
+  }
+
+  footer {
+    margin-bottom: 3.2rem;
+  }
+}
+
+/* **************************** */
+/* BELOW 368px (Phones) */
+/* **************************** */
+@media (max-width: 23rem) {
+  header {
+    margin-top: 4.8rem;
+  }
+
+  header img {
+    width: 86%;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  .header-text {
+    font-size: 1.4rem;
+  }
+
+  .btn--big {
+    font-size: 1.6rem;
+  }
+
+  h2 {
+    font-size: 2.6rem;
+  }
+
+  .chair-price {
+    justify-content: space-between;
+  }
+}

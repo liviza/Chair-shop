@@ -19,7 +19,7 @@ GREY COLOR: #343a40
 
 html {
   font-size: 62.5%;
-  overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 /* ------------------------ */
@@ -198,6 +198,10 @@ h3 {
 
 .chair-details li:last-child {
   margin-bottom: 0;
+}
+
+li span {
+  font-size: 1.6rem;
 }
 
 .chair-icon {
